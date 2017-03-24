@@ -1,0 +1,210 @@
+body {
+	background-color: #f5f5d8;
+	font-family: Arial;
+}
+
+
+.todo-container{
+	background-color: #ffffff;
+	width: 450px;
+
+	margin: 30px auto;
+	margin-top: 10px;
+	padding-top: 15px;
+
+	box-shadow: 0px 0px 5px  #ededed;
+}
+
+
+.todo-title, .todo-header{
+	background-color: #fff;	
+   	color: #ebd7d7;
+
+	margin: auto;
+	font-weight: 100px;	
+	font-size: 80px;
+	text-align: center;	
+}
+.todo-add{	
+	border-bottom:solid 1px #e6e6e6;
+	padding-bottom:5px;
+}
+
+.todo-all_select-all{
+	background: url('../images/icons/select-all.png') no-repeat center;
+
+	float: left;
+
+    	width: 20px;
+    	height: 20px;
+
+	margin-left: 9px;
+	margin-right:10px;
+	border: none;
+	outline:none;
+
+	
+}
+
+.todo-all_input{
+	width:70%;
+	height:25px;
+
+	border:none;
+	outline:none;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-style:italic;
+}
+
+.todo-list{
+	min-height: 25px;
+}
+
+.todo-item {
+	border-bottom:solid 1px #e6e6e6;	
+}
+
+.todo-item:hover {
+	background: #ededed;
+
+	border-bottom:solid 1px #e6e6e6;
+
+}
+
+.todo-item_text{
+	width:70%;
+	height:25px;
+
+	margin-left:5px;
+	outline: none;
+	padding-top:10px;
+	overflow: hidden;
+	border:none;
+	background: inherit;
+	
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	resize: none;
+}
+
+.todo-item_remove{
+	background: url('../images/icons/close.png') no-repeat center;
+
+	width: 20px;
+    	height: 20px;
+
+	opacity: 0;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+.todo-item_remove:hover{
+	background: url('../images/icons/close.png') no-repeat center;
+
+	width: 20px;
+    	height: 20px;
+
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	border: none;
+	outline: none
+}
+
+
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+
+.todo-item_ready-mark {
+	background: #e6e6e6;
+
+	width: 28px;
+	height: 28px;
+
+	float: left;
+
+	margin-top: 5px;
+	margin-left: 5px;
+
+	border-radius: 50px;
+
+	position: relative;
+}
+
+.todo-item_ready-mark label:before {
+	cursor: pointer;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+
+	left: 1px;
+	top: 1px;
+
+	
+	background-color: white; 
+	
+}
+
+
+.todo-item_ready-mark input[type=checkbox]:checked + label:after {
+	background: url('../images/icons/completed.png');
+
+}
+
+
+.todo-action-bar{
+	color: #888;
+
+	border-top: solid 1px #e6e6e6;
+	margin-top: 50px;
+	padding: 5px;
+	position: relative;
+	overflow:hidden;
+	font-size: 14px;
+	
+}
+
+.todo-action-bar_counter{
+	display: inline-block;
+	margin-right:50px;
+	margin-left: 5px;
+}
+
+.todo-filter{
+	color: #888;
+
+	display: inline-block;
+
+    	border: none;
+    	background: transparent;
+	outline: none;
+	
+}
+
+.todo-filter.__active{
+	border: solid 1px #ebdfdf;
+}
+
+.todo-action-bar_remove-complited{
+	color: #888;
+
+	float: right;
+
+    	border: none;
+    	background: transparent;
+	outline: none;
+}
+
+.todo_footers{
+	position:absolute;	
+}
+
+
+
