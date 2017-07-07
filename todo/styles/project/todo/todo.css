@@ -1,0 +1,23 @@
+.todo-container{
+	background-color: #ffffff;
+	width: 450px;
+
+	margin: 30px auto;
+	margin-top: 10px;
+	padding-top: 15px;
+
+	box-shadow: 0px 0px 5px  #ededed;
+}
+
+.todo-header{
+    	background-color: #f5f5f6;
+    	text-align: center;
+
+}
+.todo-title{
+    	color: #ede2e2;
+   	 margin: auto;
+
+    	font-weight: 100;
+    	font-size: 80px;
+}
